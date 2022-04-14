@@ -1,0 +1,13 @@
+{
+	"extends": "@tsconfig/node16/tsconfig.json",
+	"compilerOptions": {
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"outDir": "./dist"
+	},
+	"target": "es6",
+	"include": ["src"],
+	"exclude": ["node_modules"],
+	"emitDecoratorMetadata": true,
+	"experimentalDecorators": true
+}
