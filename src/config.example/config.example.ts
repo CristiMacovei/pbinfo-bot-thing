@@ -1,4 +1,4 @@
 export default {
-    token: "token here"
-    // more to come soon
-}
+	token: 'token here'
+	// more to come soon
+};
