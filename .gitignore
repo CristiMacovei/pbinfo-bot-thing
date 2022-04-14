@@ -131,3 +131,5 @@ dist
 
 # config.ts
 src/config
+
+pnpm-lock.yaml
