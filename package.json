@@ -1,13 +1,14 @@
 {
   "name": "pbinfo-shit",
   "version": "1.0.0",
-  "description": "",
+  "description": "A bot that will quite literally make Alin very angery",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node .",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\""
   },
   "keywords": [],
-  "author": "",
+  "author": "2intelectuals",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^13.6.0",
