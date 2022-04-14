@@ -1,11 +1,11 @@
-import { DataSource } from "typeorm";
-import { pbInfoUser } from "./models/pbInfoUser";
+import { DataSource } from 'typeorm';
+import { pbInfoUser } from './models/pbInfoUser';
 
 export const dataSource = new DataSource({
-    type: 'sqlite',
-    database: './src/database/pbinfo.sqlite',
-    entities: [pbInfoUser],
-    subscribers: [],
-    synchronize: true,
-    logging: false,
+	type: 'sqlite',
+	database: './src/database/pbinfo.sqlite',
+	entities: [pbInfoUser],
+	subscribers: [],
+	synchronize: true,
+	logging: false
 });
